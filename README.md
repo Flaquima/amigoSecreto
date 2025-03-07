@@ -1,2 +1,3 @@
 # amigoSecreto
 Challenge Amigo Secreto
+Codigo realizado por Fátima Gómez, es una aplicación que permite a los usuarios ingresar nombre de sus amigos, realizar un sorteo aleatorio para determinar quien es el amigo secreto. Esto agregando  nombres en un campo de texto con el boton añadir, añado los nombres de mis amigos, si por algo no se pone un nombre de amigo, aparecera un alerta indicando que "por favor ingrese un nombre válido". Teniendo los nombres de mis amigos se realizara un sorteo, la aplicación realizara un sorteo aleatorio y escogera un amigo, el cual mostrara en pantalla. 
