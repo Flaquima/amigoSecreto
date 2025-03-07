@@ -3,14 +3,14 @@ let amigos = [];
 
 function agregarAmigo() {
     let inputAmigo = document.getElementById("amigo");
-    let nombreAmigo = inputAmigo.ariaValueMax.trim();
+    let nombreAmigo = inputAmigo.value.trim();
 
-    if (nombre === ""){
-        alert ("Por favor, inserte un Nombre.");
+    if (nombreAmigo === ""){
+        alert ("Por favor, inserte un nombre válido.");
         return;
     }
 
-    if(amigos.incluides(nombreAmigo)){
+    if(amigos.includes(nombreAmigo)){
         alert (`El nombre ${nombreAmigo} Ya esta en la lista`);
         return;
     }
@@ -43,10 +43,10 @@ function sortearAmigo() {
 
     let indiceAleatorio = Math.floor(Math.random()*amigos.length);
 
-    let amigoSorteado = amigos(indiceAleatorio);
+    let amigoSorteado = amigos[indiceAleatorio];
 
     let resultado = document.getElementById("resultado");
-    resultado.innerHTML = `Amigo sorteado: <strong>${amigoSorteado}<strong>`;
+    resultado.innerHTML = `Amigo sorteado: <strong>${amigoSorteado}</strong>`;
 
 
 }
